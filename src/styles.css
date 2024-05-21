@@ -1,4 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url("./fonts/josefin/JosefinSans-VariableFont_wght.ttf") format("truetype");
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Berkshire Swash';
+    src: url("./fonts/berkshire/BerkshireSwash-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-display: swap;
+}

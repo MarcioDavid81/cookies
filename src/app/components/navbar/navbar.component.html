@@ -1,13 +1,28 @@
-    <header class="flex">
-        <nav class="flex justify-between items-center w-full h-16 p-3 bg-blue-400 shadow-md">
-            <a routerLink="/" class="flex items-center gap-2">                
-                <img [src]="logo" alt="Angular" class="w-12 h-12">
-                <p>ANGULAR 17</p>
-            </a>
-            <ul class="flex gap-2 items-center">
-                <li class="text-white hover:text-black capitalize"><a routerLink="/home">home</a></li>
-                <li class="text-white hover:text-black capitalize"><a routerLink="/sobre">sobre</a></li>
-                <li class="text-white hover:text-black capitalize"><a routerLink="/cardapio">cardapio</a></li>
-            </ul>
-        </nav>
+    <header class="flex flex-col">
+        <div class="flex items-center gap-10 justify-end h-10 py-1 px-32 bg-primary text-2xl">
+            <a href=""><i class="bi bi-instagram hover:text-secondary"></i></a>
+            <a href=""><i class="bi bi-facebook hover:text-secondary"></i></a>
+            <a href=""><i class="bi bi-whatsapp hover:text-secondary"></i></a>
+        </div>
+        <div  class="flex flex-row justify-between px-28 bg-quartiary shadow-md">
+            <div>
+                <a routerLink="home">
+                    <img [src]="logo" alt="Pizzaria Dom Miguel" class="w-24 h-15">
+                </a>
+            </div>
+            <div class="flex">
+                <nav class="flex justify-around items-center w-full h-16 p-5">
+                    <ul class="flex gap-20 items-center font-Josefin text-xl font-semibold">
+                        <li class="text-tertiary hover:text-secondary capitalize"><a routerLink="/home">home</a></li>
+                        <li class="text-tertiary hover:text-secondary capitalize"><a routerLink="/sobre">sobre</a></li>
+                        <li class="text-tertiary hover:text-secondary capitalize"><a routerLink="/cardapio">cardapio</a></li>
+                        <li class="text-tertiary hover:text-secondary capitalize"><a routerLink="/blog">blog</a></li>
+                     </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="banner">
+            <h1>Dom Miguel</h1>
+            <p>Pizzaria e Restaurante</p>
+        </div>
     </header>
