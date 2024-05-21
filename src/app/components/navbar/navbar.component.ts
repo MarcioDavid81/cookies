@@ -11,4 +11,5 @@ import { RouterLink } from '@angular/router';
 export class NavbarComponent {
   logo: string = 'assets/Logo.png';
   banner: string = 'assets/banner.jpg';
+  faixa: string = 'assets/Faixap.png';
 }
